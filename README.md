@@ -21,4 +21,8 @@ O objetivo é transformar ambientes clínicos em santuários digitais, equilibra
 - `hero_clinic.webp`: Imagem de cabeçalho gerada via AI para representar o conceito de "Santuário Clínico".
 
 ## 🚀 Como visualizar
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+O projeto está hospedado no **Netlify**. Você pode visualizá-lo em:
+
+🔗 **[https://clinicacitto.netlify.app/](https://clinicacitto.netlify.app/)**
+
+Ou, localmente, basta abrir o arquivo `index.html` em qualquer navegador moderno.
