@@ -1,263 +1,354 @@
 <!DOCTYPE html>
 
-<html class="light" lang="pt-BR"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Citto Centro Médico | Curadoria Clínica em Serrinha</title>
-<!-- Favicon -->
-<link rel="icon" type="image/webp" href="./img/logo-citto.webp">
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<!-- Material Symbols -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<!-- Link to Compiled CSS (Better Performance) -->
-<link rel="stylesheet" href="style.css" />
+<html class="light" lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Citto Centro Médico | Curadoria Clínica em Serrinha</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="./img/logo-citto.webp">
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&amp;family=Manrope:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Link to Compiled CSS (Better Performance) -->
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-[#fffcf7]/80 backdrop-blur-md shadow-sm shadow-[#383833]/5">
-<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
-<div class="h-10">
-<img alt="Citto Centro Médico" class="h-full w-auto object-contain" src="./img/logo-citto.webp" style=""/>
-</div>
-<div class="hidden md:flex items-center gap-x-8">
-<a class="font-['Newsreader'] italic text-lg tracking-tight text-[#506c38] border-b-2 border-[#506c38] pb-1 transition-colors duration-300" href="#especialidades" style="">Especialidades</a>
-<a class="font-['Newsreader'] italic text-lg tracking-tight text-[#6f6350] hover:text-[#506c38] transition-colors duration-300" href="#sobre" style="">Sobre nós</a>
-<a class="font-['Newsreader'] italic text-lg tracking-tight text-[#6f6350] hover:text-[#506c38] transition-colors duration-300" href="#contatos" style="">Contatos</a>
-</div>
-<a href="https://wa.me/5575988643610" target="_blank" class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-medium text-sm tracking-wide text-center hover:-translate-y-0.5 active:translate-y-0 transition-transform shadow-md shadow-primary/10" style="">
-            Agendar Consulta
-        </a>
-</div>
-</nav>
-<main class="pt-24">
-<!-- Hero Section -->
-<section class="relative px-8 py-20 max-w-7xl mx-auto overflow-hidden">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-<div class="lg:col-span-7 z-10">
-<h1 class="font-headline text-6xl md:text-8xl text-on-surface leading-[1.1] tracking-tight mb-8" style="">
-                    Sua saúde merece uma <span class="italic text-primary" style="">curadoria especializada.</span>
-</h1>
-<p class="font-body text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl" style="">
-                    Na CITTO, a precisão diagnóstica encontra a serenidade de um ambiente planejado para o seu bem-estar integral.
-                </p>
-<div class="flex flex-wrap gap-4">
-<a class="bg-primary text-on-primary px-8 py-4 rounded-xl font-semibold flex items-center gap-2 hover:bg-primary-dim transition-all shadow-lg shadow-primary/20" href="https://wa.me/5575988643610" style="" target="_blank">
-                        Iniciar minha Jornada de Cuidado
-                        <span class="material-symbols-outlined text-xl" style="">arrow_forward</span>
-</a>
-</div>
-</div>
-<div class="lg:col-span-5 relative">
-<div class="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl rotate-3 bg-surface-container">
-<img class="w-full h-full object-cover" data-alt="Modern high-end clinical corridor with warm wooden accents, soft ambient lighting, and minimalist botanical decor in a luxury wellness center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZULFKlbGEw6AZGxAEWWEXIUnCmNI7HfUiWiY-pNU7OnUfE6yP57Rj5s8mufVr1gTcDd4fbGhliXIXo1DidCyGdlxdg2xfwbcweUhq8-ksL7JfTdoqOF--P8oTGkFdzci6HDFrBRP5URFqACRQWfmdVne7o3nQLKSigw-NFeIa0sdyu2ibuhFKze5ilEsQRop4BRXrVnNen-dvQJwZQUoQn9IzMWtvN5O_3E1zig_ogs9G7zMXJC_As9P8t9o6U4nHTmNuI7BEVxI" style=""/>
-</div>
-<div class="absolute -bottom-6 -left-6 w-48 h-48 asymmetric-leaf bg-tertiary-container flex items-center justify-center p-6 border border-white/50 backdrop-blur-sm -rotate-6">
-<p class="font-headline italic text-on-tertiary-container text-center leading-tight" style="">Cuidado focado no seu bem-estar diário.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Specialties Grid -->
-<section id="especialidades" class="bg-surface-container-low py-32 px-8">
-<div class="max-w-7xl mx-auto">
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
-<div class="max-w-2xl">
-<span class="font-label text-primary tracking-[0.2em] uppercase text-sm font-bold mb-4 block" style="">Nossa Expertise</span>
-<h2 class="font-headline text-5xl text-on-surface leading-tight" style="">Especialidades em Foco: Tecnologia &amp; Humanidade</h2>
-<p class="mt-6 text-on-surface-variant text-lg" style="">Um corpo clínico de elite, selecionado para garantir a sofisticação e a segurança de cada diagnóstico.</p>
-</div>
-<a class="font-headline italic text-primary text-xl underline underline-offset-8 decoration-2 flex items-center gap-2 hover:opacity-80 transition-opacity" href="#" style=""></a>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<!-- Cardiology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="cardiology" style="">cardiology</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Cardiologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Preservando a vitalidade cardíaca através de protocolos avançados de prevenção.</p>
-</div>
-</div>
-<!-- Dermatology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="dermatology" style="">dermatology</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Dermatologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">A ciência da pele aliada à estética de alta performance e saúde dermatológica.</p>
-</div>
-</div>
-<!-- Gynecology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="female" style="">female</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Ginecologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Cuidado íntimo e acolhedor em todas as fases da jornada feminina.</p>
-</div>
-</div>
-<!-- Pediatrics -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="child_care" style="">child_care</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Pediatria</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Dedicação integral ao desenvolvimento saudável e seguro das futuras gerações.</p>
-</div>
-</div>
-<!-- Endocrinology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="vital_signs" style="">vital_signs</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Endocrinologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Refinando o equilíbrio metabólico e a harmonia hormonal sistêmica.</p>
-</div>
-</div>
-<!-- Urology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="male" style="">male</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Urologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Excelência clínica e cirúrgica para a saúde do sistema geniturinário.</p>
-</div>
-</div>
-<!-- Gastroenterology -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<img alt="Gastroenterologia Icon" class="w-10 h-10 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLX1JnwQjgCI5f1ZUnsHy3cbOAWLJSzHwtZ5kMUdLDHSAhNmiWPTbYlle2o8pnqM1VwQfJSpM1JzQn839PMaIyzPMiIbwyXnOpj2T-hOO3gxo-QW0zlGR20ar3ux64uwscWxshNQI_2n0dAQgkupEro3uHLpI8ur8DaBraXy6OJtRuza6ph2PEuXEZdYHPRnGq7yth2qssuiDl6YKqXAWErt6lkiLYRwhXncp0o6494XBFEjsFR2x09f1rlq-8QLnF11E-nrc1DOc"/>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Gastroenterologia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Abordagem detalhista para o equilíbrio e saúde do trato digestivo.</p>
-</div>
-</div>
-<!-- Ultrassonografia -->
-<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
-<span class="material-symbols-outlined text-4xl text-primary" data-icon="radiology" style="">radiology</span>
-<div>
-<h3 class="font-headline text-2xl mb-2" style="">Ultrassonografia</h3>
-<p class="text-on-surface-variant text-sm font-body" style="">Precisão diagnóstica por imagem com o mais alto rigor tecnológico.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- About Us -->
-<section id="sobre" class="py-32 px-8 max-w-7xl mx-auto">
-<div class="flex flex-col lg:flex-row gap-20 items-center">
-<div class="lg:w-1/2 order-2 lg:order-1 relative">
-<div class="asymmetric-leaf overflow-hidden aspect-square shadow-2xl">
-<img class="w-full h-full object-cover" data-alt="Detail of professional doctor hands writing on medical clipboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtY1WMwAfX_yUvwveVZKIRVOYl7lo8Eay_h6nT07zypxsHp0nRRKvt6vWrxkjCNo6p9u00q5F1esLEiI_WgHJcfCKhOOtpZbpZ2GzcEUU7kqfG0SA9TyEGhO-xpzNRDA3FOZ47_j1L2NXK8KEjm5I96JCHYQOlrAiu9ue_TD0mHQSjx7--7p3UvbfJQpgPxjY5vtlVV1GRx7KLtmnTN4vYwtUCCSR_i8P12zgn6m2W1UacuY8vpsZi6Z_5C4nGvAIE9ImR9Nljf4M" style=""/>
-</div>
-<div class="absolute -top-10 -right-10 bg-surface-container-high p-8 rounded-full border-4 border-background">
-<div class="text-center">
-<span class="block text-3xl font-bold text-primary font-headline" style="">20+</span>
-<span class="text-xs font-label uppercase tracking-widest text-on-surface-variant" style="">Anos de Cuidado</span>
-</div>
-</div>
-</div>
-<div class="lg:w-1/2 order-1 lg:order-2">
-<span class="font-label text-secondary tracking-[0.2em] uppercase text-sm font-bold mb-4 block" style="">Nossa História</span>
-<h2 class="font-headline text-5xl text-on-surface leading-tight mb-8 italic" style="">A Arte da Curadoria Clínica.</h2>
-<div class="space-y-6 text-lg text-on-surface-variant leading-relaxed">
-<p class="" style="">Redefinimos o cuidado. Na CITTO, cada paciente é uma história única que merece um olhar atento, detalhista e profundamente humano.</p>
-<p class="" style="">Nossa jornada é pautada pelo compromisso inabalável com a precisão clínica e o respeito integral ao paciente. Através de um olhar humanizado e tecnológico, buscamos oferecer uma jornada de cuidado que começa na acolhida e se estende por cada etapa do diagnóstico e tratamento.</p>
-</div>
-<div class="mt-12">
-<a class="inline-flex items-center gap-4 text-on-surface group" href="#" style="">
-<div class="w-12 h-12 rounded-full border border-outline flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all">
-<span class="material-symbols-outlined group-hover:text-on-primary" style="">play_arrow</span>
-</div>
-<span class="font-body font-semibold" style="">Conheça nossa Missão</span>
-</a>
-</div>
-</div>
-</div>
-</section>
-<!-- Location & Contact -->
-<section id="contatos" class="bg-surface-container py-32 px-8">
-<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-<div class="flex flex-col justify-center">
-<span class="font-label text-primary tracking-[0.2em] uppercase text-sm font-bold mb-4 block" style="">Fale Conosco</span>
-<h2 class="font-headline text-5xl text-on-surface mb-12" style="">Onde nos encontrar</h2>
-<div class="space-y-12">
-<div class="flex gap-6 items-start">
-<div class="w-14 h-14 bg-surface-container-high rounded-full flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-primary" style="">location_on</span>
-</div>
-<div>
-<h4 class="font-body font-bold text-xl mb-1" style="">Localização</h4>
-<p class="text-on-surface-variant" style="">Rua Álvaro Augusto, 631 - Ginásio<br/>Serrinha - BA, 48700-000</p>
-</div>
-</div>
-<div class="flex gap-6 items-start">
-<div class="w-14 h-14 bg-surface-container-high rounded-full flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-primary" style='font-variation-settings: "FILL" 1;'>call</span>
-</div>
-<div>
-<h4 class="font-body font-bold text-xl mb-1" style="">Canais de Atendimento</h4>
-<div class="space-y-2">
-<p class="text-on-surface-variant flex flex-col gap-1" style="">
-<span class="flex items-center gap-2" style=""><span class="font-semibold text-on-surface" style="">Telefones:</span> (75) 3261-7400 | (75) 3261-0827</span>
-</p>
-<a class="text-primary font-semibold flex items-center gap-2 hover:underline" href="https://wa.me/5575988643610" style="" target="_blank">
-<span class="material-symbols-outlined text-sm" style="">chat</span>
-                                    WhatsApp: (75) 98864-3610
-                                </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="rounded-3xl overflow-hidden shadow-xl h-[500px] border-8 border-white bg-surface-dim">
-<iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.365180136335!2d-39.0052869!3d-11.6685111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7138d23055fe2bf%3A0xee40ae43628517cf!2sR.%20%C3%81lvaro%20Augusto%2C%20631%20-%20Gin%C3%A1sio%2C%20Serrinha%20-%20BA%2C%2048700-000!5e0!3m2!1spt-BR!2sbr!4v1769969774759!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</div>
-</section>
-<!-- Final CTA -->
-<section class="py-32 px-8 text-center bg-primary text-on-primary">
-<div class="max-w-3xl mx-auto">
-<h2 class="font-headline text-5xl mb-8 leading-tight" style="">O cuidado que você merece, agora.</h2>
-<p class="text-lg opacity-90 mb-12 font-body" style="">Experimente o padrão CITTO de excelência clínica e atendimento humanizado.</p>
-<a class="inline-block bg-white text-primary px-12 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl" href="https://wa.me/5575988643610" style="" target="_blank">
-                Agendar Agora
+
+<body
+    class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+    <!-- TopNavBar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#fffcf7]/80 backdrop-blur-md shadow-sm shadow-[#383833]/5">
+        <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+            <a href="https://clinicacitto.netlify.app/" class="h-10 block">
+                <img alt="Citto Centro Médico" class="h-full w-auto object-contain" src="./img/logo-citto.webp"
+                    style="" />
             </a>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="w-full pt-20 pb-10 bg-[#fcf9f3]">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8 max-w-7xl mx-auto">
-<div class="space-y-6">
-<img alt="Citto Logo" class="h-10 w-auto" src="./img/logo-citto.webp" style=""/>
-<p class="font-body text-sm text-[#6f6350] leading-relaxed" style="">
-                Referência em curadoria clínica e atendimento médico em Serrinha - BA. Sua saúde merece o padrão Citto de cuidado e tecnologia.
-            </p>
-</div>
-<div class="space-y-6">
-<h5 class="font-['Manrope'] text-sm uppercase tracking-widest text-[#506c38] font-bold" style="">Navegação</h5>
-<ul class="space-y-4">
-<li class="" style=""><a class="text-[#6f6350] hover:text-[#506c38] transition-colors" href="#especialidades" style="">Especialidades</a></li>
-<li class="" style=""><a class="text-[#6f6350] hover:text-[#506c38] transition-colors" href="#sobre" style="">Corpo Clínico</a></li>
-<li class="" style=""><a class="text-[#6f6350] hover:text-[#506c38] transition-colors" href="#" style="">Resultados de Exames</a></li>
-<li class="" style=""><a class="text-[#6f6350] hover:text-[#506c38] transition-colors" href="#" style="">Trabalhe Conosco</a></li>
-</ul>
-</div>
-<div class="space-y-6">
-<h5 class="font-['Manrope'] text-sm uppercase tracking-widest text-[#506c38] font-bold" style="">Contato Direto</h5>
-<div class="space-y-4">
-<p class="text-[#6f6350] text-sm" style="">
-                    Rua Álvaro Augusto, 631, Ginásio<br/>
-                    Serrinha - BA
+            <div class="hidden md:flex items-center gap-x-8">
+                <a class="font-['Newsreader'] italic text-lg tracking-tight text-[#00638f] transition-colors duration-300"
+                    href="#especialidades" style="">Especialidades</a>
+                <a class="font-['Newsreader'] italic text-lg tracking-tight text-[#6f6350] hover:text-[#00638f] transition-colors duration-300"
+                    href="#sobre" style="">Sobre nós</a>
+                <a class="font-['Newsreader'] italic text-lg tracking-tight text-[#6f6350] hover:text-[#00638f] transition-colors duration-300"
+                    href="#contatos" style="">Contatos</a>
+            </div>
+            <a href="https://wa.me/5575988643610" target="_blank"
+                class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-medium text-sm tracking-wide text-center hover:-translate-y-0.5 active:translate-y-0 transition-transform shadow-md shadow-primary/10"
+                style="">
+                Agendar Consulta
+            </a>
+        </div>
+    </nav>
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section class="relative px-8 py-20 max-w-7xl mx-auto overflow-hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 z-10">
+                    <h1 class="font-headline text-6xl md:text-8xl text-on-surface leading-[1.1] tracking-tight mb-8"
+                        style="">
+                        Sua saúde merece uma <span class="italic text-primary" style="">curadoria especializada.</span>
+                    </h1>
+                    <p class="font-body text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl" style="">
+                        Na CITTO, a precisão diagnóstica encontra a serenidade de um ambiente planejado para o seu
+                        bem-estar integral.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a class="bg-primary text-on-primary px-8 py-4 rounded-xl font-semibold flex items-center gap-2 hover:bg-primary-dim transition-all shadow-lg shadow-primary/20"
+                            href="https://wa.me/5575988643610" style="" target="_blank">
+                            Iniciar minha Jornada de Cuidado
+                            <span class="material-symbols-outlined text-xl" style="">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative">
+                    <div class="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl rotate-3 bg-surface-container">
+                        <img class="w-full h-full object-cover"
+                            data-alt="Modern high-end clinical corridor with warm wooden accents, soft ambient lighting, and minimalist botanical decor in a luxury wellness center"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZULFKlbGEw6AZGxAEWWEXIUnCmNI7HfUiWiY-pNU7OnUfE6yP57Rj5s8mufVr1gTcDd4fbGhliXIXo1DidCyGdlxdg2xfwbcweUhq8-ksL7JfTdoqOF--P8oTGkFdzci6HDFrBRP5URFqACRQWfmdVne7o3nQLKSigw-NFeIa0sdyu2ibuhFKze5ilEsQRop4BRXrVnNen-dvQJwZQUoQn9IzMWtvN5O_3E1zig_ogs9G7zMXJC_As9P8t9o6U4nHTmNuI7BEVxI"
+                            style="" />
+                    </div>
+                    <div
+                        class="absolute -bottom-6 -left-6 w-48 h-48 asymmetric-leaf bg-tertiary-container flex items-center justify-center p-6 border border-white/50 backdrop-blur-sm -rotate-6">
+                        <p class="font-headline italic text-on-tertiary-container text-center leading-tight" style="">
+                            Cuidado focado no seu bem-estar diário.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Specialties Grid -->
+        <section id="especialidades" class="bg-surface-container-low py-32 px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+                    <div class="max-w-2xl">
+                        <span class="font-label text-primary tracking-[0.2em] uppercase text-sm font-bold mb-4 block"
+                            style="">Nossa Expertise</span>
+                        <h2 class="font-headline text-5xl text-on-surface leading-tight" style="">Especialidades em
+                            Foco: Tecnologia &amp; Humanidade</h2>
+                        <p class="mt-6 text-on-surface-variant text-lg" style="">Um corpo clínico de elite, selecionado
+                            para garantir a sofisticação e a segurança de cada diagnóstico.</p>
+                    </div>
+                    <a class="font-headline italic text-primary text-xl underline underline-offset-8 decoration-2 flex items-center gap-2 hover:opacity-80 transition-opacity"
+                        href="#" style=""></a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Cardiology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="cardiology"
+                            style="">cardiology</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Cardiologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Preservando a vitalidade
+                                cardíaca através de protocolos avançados de prevenção.</p>
+                        </div>
+                    </div>
+                    <!-- Dermatology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="dermatology"
+                            style="">dermatology</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Dermatologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">A ciência da pele aliada à
+                                estética de alta performance e saúde dermatológica.</p>
+                        </div>
+                    </div>
+                    <!-- Gynecology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="female"
+                            style="">female</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Ginecologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Cuidado íntimo e acolhedor em
+                                todas as fases da jornada feminina.</p>
+                        </div>
+                    </div>
+                    <!-- Pediatrics -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="child_care"
+                            style="">child_care</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Pediatria</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Dedicação integral ao
+                                desenvolvimento saudável e seguro das futuras gerações.</p>
+                        </div>
+                    </div>
+                    <!-- Endocrinology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="vital_signs"
+                            style="">vital_signs</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Endocrinologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Refinando o equilíbrio
+                                metabólico e a harmonia hormonal sistêmica.</p>
+                        </div>
+                    </div>
+                    <!-- Urology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="male"
+                            style="">male</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Urologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Excelência clínica e cirúrgica
+                                para a saúde do sistema geniturinário.</p>
+                        </div>
+                    </div>
+                    <!-- Gastroenterology -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <img alt="Gastroenterologia Icon" class="w-10 h-10 object-contain"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLX1JnwQjgCI5f1ZUnsHy3cbOAWLJSzHwtZ5kMUdLDHSAhNmiWPTbYlle2o8pnqM1VwQfJSpM1JzQn839PMaIyzPMiIbwyXnOpj2T-hOO3gxo-QW0zlGR20ar3ux64uwscWxshNQI_2n0dAQgkupEro3uHLpI8ur8DaBraXy6OJtRuza6ph2PEuXEZdYHPRnGq7yth2qssuiDl6YKqXAWErt6lkiLYRwhXncp0o6494XBFEjsFR2x09f1rlq-8QLnF11E-nrc1DOc" />
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Gastroenterologia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Abordagem detalhista para o
+                                equilíbrio e saúde do trato digestivo.</p>
+                        </div>
+                    </div>
+                    <!-- Ultrassonografia -->
+                    <div
+                        class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-64 border-b-4 border-transparent hover:border-primary">
+                        <span class="material-symbols-outlined text-4xl text-primary" data-icon="radiology"
+                            style="">radiology</span>
+                        <div>
+                            <h3 class="font-headline text-2xl mb-2" style="">Ultrassonografia</h3>
+                            <p class="text-on-surface-variant text-sm font-body" style="">Precisão diagnóstica por
+                                imagem com o mais alto rigor tecnológico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us -->
+        <section id="sobre" class="py-32 px-8 max-w-7xl mx-auto">
+            <div class="flex flex-col lg:flex-row gap-20 items-center">
+                <div class="lg:w-1/2 order-2 lg:order-1 relative">
+                    <div class="asymmetric-leaf overflow-hidden aspect-square shadow-2xl">
+                        <img class="w-full h-full object-cover"
+                            data-alt="Detail of professional doctor hands writing on medical clipboard"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtY1WMwAfX_yUvwveVZKIRVOYl7lo8Eay_h6nT07zypxsHp0nRRKvt6vWrxkjCNo6p9u00q5F1esLEiI_WgHJcfCKhOOtpZbpZ2GzcEUU7kqfG0SA9TyEGhO-xpzNRDA3FOZ47_j1L2NXK8KEjm5I96JCHYQOlrAiu9ue_TD0mHQSjx7--7p3UvbfJQpgPxjY5vtlVV1GRx7KLtmnTN4vYwtUCCSR_i8P12zgn6m2W1UacuY8vpsZi6Z_5C4nGvAIE9ImR9Nljf4M"
+                            style="" />
+                    </div>
+                    <div
+                        class="absolute -top-10 -right-10 bg-surface-container-high p-8 rounded-full border-4 border-background">
+                        <div class="text-center">
+                            <span class="block text-3xl font-bold text-primary font-headline" style="">20+</span>
+                            <span class="text-xs font-label uppercase tracking-widest text-on-surface-variant"
+                                style="">Anos de Cuidado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 order-1 lg:order-2">
+                    <span class="font-label text-secondary tracking-[0.2em] uppercase text-sm font-bold mb-4 block"
+                        style="">Nossa História</span>
+                    <h2 class="font-headline text-5xl text-on-surface leading-tight mb-8 italic" style="">A Arte da
+                        Curadoria Clínica.</h2>
+                    <div class="space-y-6 text-lg text-on-surface-variant leading-relaxed">
+                        <p class="" style="">Redefinimos o cuidado. Na CITTO, cada paciente é uma história única que
+                            merece um olhar atento, detalhista e profundamente humano.</p>
+                        <p class="" style="">Nossa jornada é pautada pelo compromisso inabalável com a precisão clínica
+                            e o respeito integral ao paciente. Através de um olhar humanizado e tecnológico, buscamos
+                            oferecer uma jornada de cuidado que começa na acolhida e se estende por cada etapa do
+                            diagnóstico e tratamento.</p>
+                    </div>
+                    <div class="mt-12">
+                        <a class="inline-flex items-center gap-4 text-on-surface group" href="#" style="">
+                            <div
+                                class="w-12 h-12 rounded-full border border-outline flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all">
+                                <span class="material-symbols-outlined group-hover:text-on-primary"
+                                    style="">play_arrow</span>
+                            </div>
+                            <span class="font-body font-semibold" style="">Conheça nossa Missão</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Location & Contact -->
+        <section id="contatos" class="bg-surface-container py-32 px-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <div class="flex flex-col justify-center">
+                    <span class="font-label text-primary tracking-[0.2em] uppercase text-sm font-bold mb-4 block"
+                        style="">Fale Conosco</span>
+                    <h2 class="font-headline text-5xl text-on-surface mb-12" style="">Onde nos encontrar</h2>
+                    <div class="space-y-12">
+                        <div class="flex gap-6 items-start">
+                            <div
+                                class="w-14 h-14 bg-surface-container-high rounded-full flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-primary" style="">location_on</span>
+                            </div>
+                            <div>
+                                <h4 class="font-body font-bold text-xl mb-1" style="">Localização</h4>
+                                <p class="text-on-surface-variant" style="">Rua Álvaro Augusto, 631 -
+                                     Ginásio<br />Serrinha - BA, 48700-000</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div
+                                class="w-14 h-14 bg-surface-container-high rounded-full flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-primary"
+                                    style='font-variation-settings: "FILL" 1;'>call</span>
+                            </div>
+                            <div>
+                                <h4 class="font-body font-bold text-xl mb-1" style="">Canais de Atendimento</h4>
+                                <div class="space-y-2">
+                                    <p class="text-on-surface-variant flex flex-col gap-1" style="">
+                                        <span class="flex items-center gap-2" style=""><span
+                                                class="font-semibold text-on-surface" style="">Telefones:</span> (75)
+                                            3261-7400 | (75) 3261-0827</span>
+                                    </p>
+                                    <a class="text-primary font-semibold flex items-center gap-2 hover:underline"
+                                        href="https://wa.me/5575988643610" style="" target="_blank">
+                                        <span class="material-symbols-outlined text-sm" style="">chat</span>
+                                        WhatsApp: (75) 98864-3610
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-xl h-[500px] border-8 border-white bg-surface-dim">
+                    <iframe class="w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.365180136335!2d-39.0052869!3d-11.6685111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7138d23055fe2bf%3A0xee40ae43628517cf!2sR.%20%C3%81lvaro%20Augusto%2C%20631%20-%20Gin%C3%A1sio%2C%20Serrinha%20-%20BA%2C%2048700-000!5e0!3m2!1spt-BR!2sbr!4v1769969774759!5m2!1spt-BR!2sbr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Final CTA -->
+        <section class="py-32 px-8 text-center bg-primary text-on-primary">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="font-headline text-5xl mb-8 leading-tight" style="">O cuidado que você merece, agora.</h2>
+                <p class="text-lg opacity-90 mb-12 font-body" style="">Experimente o padrão CITTO de excelência clínica
+                    e atendimento humanizado.</p>
+                <a class="inline-block bg-white text-primary px-12 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl"
+                    href="https://wa.me/5575988643610" style="" target="_blank">
+                    Agendar Agora
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="w-full pt-20 pb-10 bg-[#fcf9f3]">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8 max-w-7xl mx-auto">
+            <div class="space-y-6">
+                <a href="https://clinicacitto.netlify.app/" class="block">
+                    <img alt="Citto Logo" class="h-10 w-auto" src="./img/logo-citto.webp" style="" />
+                </a>
+                <p class="font-body text-sm text-[#6f6350] leading-relaxed" style="">
+                    Referência em curadoria clínica e atendimento médico em Serrinha - BA. Sua saúde merece o padrão
+                    Citto de cuidado e tecnologia.
                 </p>
-<div class="flex flex-col gap-2">
-<span class="text-[#6f6350] text-sm font-semibold" style="">(75) 3261-7400</span>
-<span class="text-primary text-sm font-bold" style="">(75) 98864-3610</span>
-</div>
-</div>
-</div>
-</div>
-<div class="max-w-7xl mx-auto px-8 mt-20 pt-8 border-t border-[#6f6350]/10 flex flex-col md:flex-row justify-between items-center gap-6">
-<p class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest" style="">© 2026 Citto Centro Médico. Todos os direitos reservados.</p>
-<div class="flex gap-8">
-<a class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest hover:text-[#506c38]" href="#" style="">Privacidade</a>
-<a class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest hover:text-[#506c38]" href="#" style="">Termos de Uso</a>
-</div>
-</div>
-</footer>
-</body></html>
+            </div>
+            <div class="space-y-6">
+                <h5 class="font-['Manrope'] text-sm uppercase tracking-widest text-[#00638f] font-bold" style="">
+                    Navegação</h5>
+                <ul class="space-y-4">
+                    <li class="" style=""><a class="text-[#6f6350] hover:text-[#00638f] transition-colors"
+                            href="#especialidades" style="">Especialidades</a></li>
+                    <li class="" style=""><a class="text-[#6f6350] hover:text-[#00638f] transition-colors" href="#sobre"
+                            style="">Corpo Clínico</a></li>
+                    <li class="" style=""><a class="text-[#6f6350] hover:text-[#00638f] transition-colors" href="#"
+                            style="">Resultados de Exames</a></li>
+                    <li class="" style=""><a class="text-[#6f6350] hover:text-[#00638f] transition-colors" href="#"
+                            style="">Trabalhe Conosco</a></li>
+                </ul>
+            </div>
+            <div class="space-y-6">
+                <h5 class="font-['Manrope'] text-sm uppercase tracking-widest text-[#00638f] font-bold" style="">Contato
+                    Direto</h5>
+                <div class="space-y-4">
+                    <p class="text-[#6f6350] text-sm" style="">
+                        Rua Álvaro Augusto, 631, Ginásio<br />
+                        Serrinha - BA
+                    </p>
+                    <div class="flex flex-col gap-2">
+                        <span class="text-[#6f6350] text-sm font-semibold" style="">(75) 3261-7400</span>
+                        <span class="text-primary text-sm font-bold" style="">(75) 98864-3610</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-8 mt-20 pt-8 border-t border-[#6f6350]/10 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest" style="">© 2026 Citto Centro
+                Médico. Todos os direitos reservados.</p>
+            <div class="flex gap-8">
+                <a class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest hover:text-[#00638f]"
+                    href="#" style="">Privacidade</a>
+                <a class="text-[#6f6350] text-xs font-['Manrope'] uppercase tracking-widest hover:text-[#00638f]"
+                    href="#" style="">Termos de Uso</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
