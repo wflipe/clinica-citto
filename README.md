@@ -26,3 +26,12 @@ O projeto está hospedado no **Netlify**. Você pode visualizá-lo em:
 🔗 **[https://clinicacitto.netlify.app/](https://clinicacitto.netlify.app/)**
 
 Ou, localmente, basta abrir o arquivo `index.html` em qualquer navegador moderno.
+
+## 📝 Últimas Atualizações (Changelog)
+- **Copywriting Premium:** Implementação do conceito de *"Curadoria Clínica"* com textos refinados e persuasivos.
+- **Performance:** Migração do Tailwind CDN para build local compilado (`style.css` minificado) garantindo carregamento ultrarrápido.
+- **UX & Interatividade:** 
+  - Integração real com a API do Google Maps para localização precisa em Serrinha-BA.
+  - Links de navegação ancorados (smooth scroll) entre as seções.
+  - Integração do botão principal de conversão com o WhatsApp.
+  - Favicon e logos corrigidos e ajustados visualmente.
